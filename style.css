@@ -1,0 +1,64 @@
+/* imported from google https://fonts.google.com/specimen/Pixelify+Sans/tester?query=pixel */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 31.5px;
+  border-radius: 3px;
+  border: solid #575757 1px;
+  padding: 5px;
+}
+
+h1:hover{
+    border-radius: 3px;
+    border: solid black 1px;
+    padding: 5px;
+}
+
+/* Used to make sure content stays in center of page */
+body {
+    font-family: 'Pixelify Sans', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+button{
+  font-family: 'Pixelify Sans', cursive;
+}
+
+select{
+  font-family: 'Pixelify Sans', cursive;
+  height: 22px;
+}
+
+input{
+  font-family: 'Pixelify Sans', cursive;
+  width: 50px;
+}
+
+
+
+#grid {
+    display: grid;
+    margin: 15px;
+}
+
+/* USED FOR JS */
+
+.box {
+    border: 0.1px solid #e6e6e6;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box.filled {
+    background-color: black;
+}
